@@ -1,0 +1,53 @@
+.navigation-menu-wrapper {
+  /* 8% - отступ логотипа от левого края, 35пх - ширина логотипа, 10% - отступ инпута поиска от логотипа слева */
+  width: calc(8% + 35px + 10%);
+  height: 100%;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+.nav-menu ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 45%;
+  height: 60px;
+  padding: 50px 0;
+  margin: 0 5% 0 0;
+}
+.nav-menu ul li{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  margin-bottom: 15px;
+  outline: 2px #424f5f;
+}
+.nav-menu ul li:focus{
+  outline-style: solid;
+}
+.nav-menu ul li p {
+  font-size: 20px;
+  margin-left: 20px;
+}
+.nav-menu-icon {
+  width: 20px;
+  display: flex;
+  justify-content: center;
+}
+.nav-menu hr {
+  width: 90%;
+  margin-right: 10%;
+  background-color: #1C242F;
+  height: 2px;
+}
+.nav-menu ul:last-child {
+  margin: auto 0 50px 0;
+}
+.nav-menu ul:last-child li:last-child p{
+  color: #898C91;
+  font-family: "Helvetica-Bold";
+}

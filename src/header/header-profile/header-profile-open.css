@@ -1,0 +1,7 @@
+.header-profile-open {
+  margin-right: 30px;
+  outline: 2px #424f5f;
+}
+.header-profile-open:focus {
+  outline-style: solid;
+}

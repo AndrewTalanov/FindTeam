@@ -1,0 +1,7 @@
+.header-profile-add {
+  margin-right: 21px;
+  outline: 2px #424f5f;
+}
+.header-profile-add:focus {
+  outline-style: solid;
+}

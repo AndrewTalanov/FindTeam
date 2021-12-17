@@ -1,0 +1,7 @@
+.header-profile-notification {
+  margin-right: 29px;
+  outline: 2px #424f5f;
+}
+.header-profile-notification:focus {
+  outline-style: solid;
+}

@@ -1,0 +1,17 @@
+.header-profile-name {
+  margin-right: 19px;
+}
+.header-profile-name p {
+  font-family: "Helvetica-Bold";
+  font-size: 20px;
+}
+.header-profile-avatar-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-right: 30px;
+}
+.header-profile-avatar-icon img {
+  width: 100%;
+}
