@@ -1,0 +1,5 @@
+.aside {
+  /* инициализация переменной в App.css */
+  width: var(--width-aside);
+  height: 100%;
+}

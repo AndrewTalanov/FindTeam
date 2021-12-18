@@ -10,6 +10,12 @@
   font-family: "Helvetica-Light";
   src: url('./fonts/helvetica_light.otf');
 }
+:root {
+  /* 8% - отступ логотипа от левого края, 35пх - ширина логотипа, 10% - отступ инпута поиска от логотипа слева */
+  --width-nav-menu: calc(8% + 35px + 10%);
+  --width-aside: 27.45%;
+  --width-content-page: calc(100% - var(--width-aside) - var(--width-nav-menu));
+}
 .App {
   background-color: #131923;
   width: 100vw;
