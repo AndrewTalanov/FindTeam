@@ -11,13 +11,19 @@
   src: url('./fonts/helvetica_light.otf');
 }
 :root {
-  /* 8% - отступ логотипа от левого края, 35пх - ширина логотипа, 10% - отступ инпута поиска от логотипа слева */
+  /* ширина левого сайдбара: 8% - отступ логотипа от левого края, 35пх - ширина логотипа, 10% - отступ инпута поиска от логотипа слева */
   --width-nav-menu: calc(8% + 35px + 10%);
+  /* ширина правого сайдбара */
   --width-aside: 27.45%;
+  /* ширина контента (того, что по центру) */
   --width-content-page: calc(100% - var(--width-aside) - var(--width-nav-menu));
+  /* фоновый цвет */
+  --background-color: #131923; 
+  /* цвет контентных элементов (шапка, карточки и тд) */
+  --secondary-color: #101419;
 }
 .App {
-  background-color: #131923;
+  background-color: var(--background-color);
   width: 100vw;
   height: 100vh;
   overflow: hidden;

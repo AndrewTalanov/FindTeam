@@ -1,0 +1,62 @@
+.open-card {
+  /* инициализация переменных в App.css */
+  width: var(--width-content-page);
+}
+.open-card-content {
+  background-color: var(--secondary-color);
+  border-radius: 15px;
+  padding: 40px 30px 30px 30px;
+}
+.open-card-info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.open-card-info-publication {
+  width: 70%;
+}
+.open-card-info-publication h2 {
+  font-size: 40px;
+}
+.open-card-info-profile {
+  width: 30%;
+}
+.open-card-info-profile-img {
+  border-radius: 100px;
+}
+.open-card-info-profile-img img {
+  width: 100%;
+}
+.open-card-info-profile p:first-of-type {
+  font-family: "Helvetica-Bold";
+  font-size: 30px;
+}
+.open-card-info-profile p:last-of-type {
+  font-family: "Helvetica-Light";
+  font-size: 20px;
+}
+.open-card-info-publication-categories {
+  width: 100%;
+  display: flex;
+  margin: 20px -5px -10px -5px;
+  flex-wrap: wrap;
+}
+.open-card-description {
+  margin-top: 35px;
+}
+.open-card-description p {
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+
+
+.categories-item {
+  margin: 0 5px 10px 5px;
+  padding: 13px 20px;
+  background-color: var(--background-color);
+  border-radius: 15px;
+}
+.categories-item p {
+  font-size: 18px;
+}

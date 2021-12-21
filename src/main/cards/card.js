@@ -7,7 +7,7 @@ const Card = () => {
         <div className="card-info-profile">
           <h2 className='card-info-profile-title'>I can be your mentor in everything.</h2>
           <div className="card-info-profile-name">
-            {/* <img src="../icons/verification.svg" alt="Синяя галка - 'Подтвержденный профиль'" /> */}
+            <img src="../icons/verification.svg" alt="Синяя галка - 'Подтвержденный профиль'" />
             <p>Name and Name Na</p>
           </div>
         </div>

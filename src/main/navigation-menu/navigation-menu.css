@@ -45,7 +45,7 @@
   height: 2px;
 }
 .nav-menu ul:last-child {
-  margin: auto 0 50px 0;
+  margin: auto 0 100px 0;
 }
 .nav-menu ul:last-child li:last-child p{
   color: #898C91;

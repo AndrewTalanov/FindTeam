@@ -1,0 +1,9 @@
+.categories-item {
+  margin: 0 5px 10px 5px;
+  padding: 13px 20px;
+  background-color: var(--background-color);
+  border-radius: 15px;
+}
+.categories-item p {
+  font-size: 18px;
+}
